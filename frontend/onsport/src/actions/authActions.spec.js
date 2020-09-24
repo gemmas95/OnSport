@@ -47,11 +47,8 @@ describe('Auth actions', () => {
             new Promise((resolve) => resolve({ data: { user: '2345' } }))
         );
         const userSub = { name: 'Bomba' };
+        const obj = { activityId: '12' };
         await addActitvityOfCart(userSub);
-        expect(axios.put.mock.calls[0][0]).toEqual({
-            // Type not necessary but i prefere to put it :)
-            type: 'ADD_TO_CART',
-            data: { user: '2345' }
-        });
+        expect(axios.put.mock.calls[0][0]).toEqual(`/api/auth/${userSub}`, obj);
     });
 });

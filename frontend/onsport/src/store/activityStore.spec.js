@@ -41,10 +41,13 @@ describe('ActivityStore', () => {
         expect(activityStore.getActivityById(id)).toEqual();
     });
     it('should return one activity', () => {
+        action = reduceAction(actionTypes.LOAD_ACTIVITY, [
+            { activityId: 1, name: 'CNS' }
+        ]);
+        dispatcher.dispatch(action);
         expect(activityStore.getActivity()).toEqual(action.data);
     });
     it('should do LOAD_ACTIVITY', () => {
-        action = reduceAction(actionTypes.LOAD_ACTIVITY);
         dispatcher.dispatch(action);
         expect(actionTypes.LOAD_ACTIVITY).toBeDefined();
     });

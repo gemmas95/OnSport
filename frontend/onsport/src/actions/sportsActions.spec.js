@@ -10,9 +10,6 @@ describe('Testing sportsActions', () => {
     afterEach(() => {
         dispatcher.dispatch.mockClear();
     });
-    beforeEach(() => {
-        loadSports = require('./sportsActions').loadSports;
-    });
     it('should call GET with loadSports', async () => {
         axios.get.mockReturnValue(
             new Promise((resolve) => resolve({ data: {} }))

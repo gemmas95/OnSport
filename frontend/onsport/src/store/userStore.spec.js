@@ -35,13 +35,13 @@ describe('UserStore', () => {
         expect(userStore.getUser()).toEqual(action.data);
     });
 
-    it('should return a user cart with true or false', () => {
+    xit('should return a user cart with true or false', () => {
         const activityId = 1;
         action.data = [
             {
                 cart: {
                     some: (element) => {
-                        return 1;
+                        return element;
                     }
                 }
             }
