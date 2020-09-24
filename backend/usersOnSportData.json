@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Manolo",
+    "lastName": "DePalo",
+    "image": "https://www.tododisca.com/wp-content/uploads/2020/07/Brad-Pitt-1.jpg",
+    "email": "jajaja@gmail.com",
+    "password": "1234Manolo",
+    "activities": ["sda"],
+    "birth": "12/12/88",
+    "healthProblems": "none",
+    "phone": 666666666,
+    "gender": "female",
+    "admin": true,
+    "cart": []
+  }
+]

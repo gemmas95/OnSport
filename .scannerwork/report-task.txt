@@ -1,0 +1,6 @@
+projectKey=OnSport
+serverUrl=http://localhost:9000
+serverVersion=8.4.1.35646
+dashboardUrl=http://localhost:9000/dashboard?id=OnSport
+ceTaskId=AXSRhN5R-Iy4eR0jgv4G
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXSRhN5R-Iy4eR0jgv4G

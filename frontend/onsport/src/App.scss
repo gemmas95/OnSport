@@ -1,0 +1,13 @@
+$font-stack: Asap, sans-serif;
+
+body {
+  font: 100% $font-stack;
+  font-size: 18px;
+  min-width: 450px;
+}
+
+.mainContent {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}

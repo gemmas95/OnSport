@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingComponent should match 1`] = `
+<div
+  className="mainContainer__centered mainContainer"
+>
+  <img
+    alt="loading_gif"
+    src="https://i.pinimg.com/originals/cd/23/fb/cd23fb22066170c0e25ed35f2a487ce2.gif"
+  />
+  <p>
+    Loading...
+  </p>
+</div>
+`;

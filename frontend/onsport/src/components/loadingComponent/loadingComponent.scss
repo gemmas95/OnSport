@@ -1,0 +1,14 @@
+.mainContainer__centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer__centered img {
+  width: 500px;
+}
+
+.mainContainer__centered p {
+  margin: 0px;
+}

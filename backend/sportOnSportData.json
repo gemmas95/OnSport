@@ -1,0 +1,10 @@
+db.sports.insert([
+  {
+    "id": 1,
+    "type": "Acuatic",
+    "name": "Scuba-Diving",
+    "nickname": "diving",
+    "image": "https://www.squalodivers.com/wp-content/uploads/2017/04/Adventure-diver.jpg",
+    "centers": ["CNS"]
+  }
+])

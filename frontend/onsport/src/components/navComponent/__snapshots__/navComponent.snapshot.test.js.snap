@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavComponent should match 1`] = `
+<header
+  className="nav__alignment"
+>
+  <h1
+    className="logoPage"
+  >
+    OnSport
+  </h1>
+  <a
+    aria-current="page"
+    className="active"
+    href="/"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    Sports
+  </a>
+  <button
+    onClick={[Function]}
+  >
+    Log In
+  </button>
+</header>
+`;

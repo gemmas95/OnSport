@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "Acuatic",
+    "name": "Scuba-Diving",
+    "slug": "diving",
+    "image": "https://www.squalodivers.com/wp-content/uploads/2017/04/Adventure-diver.jpg",
+    "centers": [
+      {
+        "logo": "https://bss75.pl/wp-content/uploads/2013/02/thumbnails_fcb.jpg",
+        "name": 100,
+        "email": 17,
+        "phone": 666666666,
+        "description": "New Cluuuub",
+        "activities": [
+          {
+            "description": "hahaha",
+            "dates": ["10/09/20", "18/09/20", "22/09/21"],
+            "price": 12,
+            "requisits": "swim-bath",
+            "ageRange": "16-50",
+            "aptToPhisicalDisability": true,
+            "ubication": "Barcelona",
+            "duration": 50,
+            "image": "https://www.baliocean.com/wp-content/uploads/2019/11/dive-with-turtle-1024x768.jpg",
+            "depth": 17,
+            "dificulty": "low",
+            "type": "Nocturn",
+            "startPoint": "Bogatell",
+            "speciesInArea": ["Morena", "Turtle"],
+            "usersSubscribed": ["Mr. Potato", "Dr. Cola"]
+          }
+        ]
+      }
+    ]
+  }
+]

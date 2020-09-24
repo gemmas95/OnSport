@@ -1,0 +1,42 @@
+{
+    "name": "projecte_final",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "nyc --reporter=html mocha src/**/*.test.js",
+        "test-coverage": "nyc --reporter=lcov mocha src/**/*.test.js",
+        "start": "DEBUG=app,app* nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "chai": "^4.2.0",
+        "chalk": "^4.1.0",
+        "debug": "^4.1.1",
+        "express": "^4.17.1",
+        "mocha": "^8.1.3",
+        "mongoose": "^5.10.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4",
+        "nyc": "^15.1.0",
+        "sinon": "^9.0.3",
+        "eslint": "^7.7.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.22.0",
+        "prettier": "^2.1.1"
+    },
+    "nodemonConfig": {
+        "restartable": "rs",
+        "ignore": [
+            "node_modules/**/node_modules"
+        ],
+        "env": {
+            "PORT": 3002
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.footer__component {
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(134, 134, 134);
+    box-shadow: -2px -2px 2px rgb(200, 200, 200);
+    background: rgba(38, 38, 38, 1);
+
+    bottom: 0;
+    z-index: 50;
+}
+.footer__component p {
+    font-style: italic;
+    color: #d8d8d8;
+}

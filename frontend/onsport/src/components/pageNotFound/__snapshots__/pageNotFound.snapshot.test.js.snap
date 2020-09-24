@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNotFound should match 1`] = `
+<section
+  className="containerComponent"
+>
+  <h2>
+    Ooops!!! Page Not Found
+  </h2>
+  <h3>
+    Error 404
+  </h3>
+  <p>
+    Nothing to do here!
+  </p>
+</section>
+`;

@@ -1,0 +1,120 @@
+.flex__row__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button__red {
+    align-self: center;
+}
+
+.button__red:hover {
+    align-self: center;
+    border-radius: 4px;
+    background-color: rgb(206, 113, 113);
+}
+.form__alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    text-align: justify;
+    align-self: center;
+}
+
+.flex__row__profile > img,
+.form__alignment > img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+.containerProfile {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+}
+
+input,
+select {
+    margin: 15px 0;
+    font-size: 16px;
+    height: 25px;
+}
+.profile__p {
+    padding-left: 20px;
+}
+.activity__center__small {
+    border: 1px solid black;
+    margin: 50px;
+    padding: 50px;
+    width: 350px;
+    border-radius: 2px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 40px 80px rgba(0, 0, 0, 0.12);
+}
+.activity__center__small > a {
+    align-self: center;
+    margin-top: 5px;
+}
+
+span {
+    font-weight: bolder;
+}
+.activity__center__small img {
+    height: fit-content;
+    margin: 10px auto;
+    width: inherit;
+}
+.activity__center__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.activity__center__container > p {
+    margin-top: 100px;
+}
+.buttons__alignment__row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.usersSubscribed__container {
+    margin-top: 1px;
+    text-align: center;
+}
+@media (min-width: 920px) {
+    .flex__row__profile {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+    .flex__row__profile > img {
+        width: 150px;
+        height: 150px;
+        align-self: self-start;
+        margin-top: 150px;
+    }
+    form {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1350) {
+    .usersSubscribed__container {
+        margin-top: 100px;
+    }
+}
