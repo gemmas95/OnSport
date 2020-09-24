@@ -29,6 +29,8 @@ In front:
 
 In back:
 
+-   Node.js
+-   MongoDB
 -   Express
 -   Mocha
 -   Chai
