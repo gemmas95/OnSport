@@ -51,9 +51,14 @@ describe('ACTIVITY Controller', () => {
             activityRouteController.deleter(req, res);
             expect(jsonSpy.calledWith(activity)).to.be.true;
         });
-        xit('should send status 200 when there is ok', () => {
+        it('should send status 200 when there is ok', () => {
             req = {
-                body: {}
+                body: {},
+                activity: {
+                    remove: (callback) => {
+                        callback(false);
+                    }
+                }
             };
             const statusSpy = sinon.spy(res, 'status');
             activityRouteController.deleter(req, res);
