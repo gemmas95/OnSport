@@ -2,5 +2,5 @@ projectKey=OnSport_frontend
 serverUrl=http://localhost:9000
 serverVersion=8.4.1.35646
 dashboardUrl=http://localhost:9000/dashboard?id=OnSport_frontend
-ceTaskId=AXSX8A2PzHgE21bWdXSs
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXSX8A2PzHgE21bWdXSs
+ceTaskId=AXT5pJhwGG14JOeRxnVg
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXT5pJhwGG14JOeRxnVg
