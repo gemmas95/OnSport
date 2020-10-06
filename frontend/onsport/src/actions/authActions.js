@@ -20,7 +20,7 @@ export function loadUsers(userSub) {
         });
     });
 }
-// Con vane
+
 export function addActitvityOfCart(userMongo, activityId) {
     const obj = { activityId: activityId };
     return axios.put(`/api/auth/${userMongo}`, obj).then((response) => {
