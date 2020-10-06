@@ -5,7 +5,6 @@ const { Schema } = mongoose;
 const activityModel = new Schema({
     name: { type: String },
     description: { type: String },
-    // Dates in string or date?
     dates: { type: String },
     id: { type: Number },
     price: { type: Number },
