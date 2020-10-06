@@ -48,7 +48,7 @@ function ActivityDetailsComponent(props) {
         setActivity(activityStore.getActivity());
     }
 
-    // Llamamos a esta función al agragar o quitar del cart las activities
+    // We call an action creator
     function onSubmit(userMongo, activityId) {
         addActitvityOfCart(userMongo?._id, activityId);
     }
@@ -119,7 +119,7 @@ function ActivityDetailsComponent(props) {
                         <section className="descriptionCenter">
                             <div className="buttons__container">
                                 {isAuthenticated && userMongo && isSubscribed && (
-                                    // Envia una acción al put
+                                    // Displayed when user isSubscribed
 
                                     <button
                                         onClick={() =>
@@ -130,17 +130,17 @@ function ActivityDetailsComponent(props) {
                                     </button>
                                 )}
 
-                                {isAuthenticated &&
-                                    userMongo &&
-                                    !isSubscribed && (
-                                        <button
-                                            onClick={() =>
-                                                onSubmit(userMongo, activityId)
-                                            }
-                                        >
-                                            Reserva tu plaza
-                                        </button>
-                                    )}
+                                {isAuthenticated && userMongo && !isSubscribed && (
+                                    // Display this button when user is NOT Subscribed
+
+                                    <button
+                                        onClick={() =>
+                                            onSubmit(userMongo, activityId)
+                                        }
+                                    >
+                                        Reserva tu plaza
+                                    </button>
+                                )}
                             </div>
                         </section>
                     </div>

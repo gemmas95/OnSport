@@ -36,7 +36,7 @@
             "node_modules/**/node_modules"
         ],
         "env": {
-            "PORT": 3002
+            "PORT": 3003
         }
     }
 }

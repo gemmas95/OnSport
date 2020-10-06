@@ -4,12 +4,13 @@ function filterArray(array, id) {
     // eslint-disable-next-line prefer-template
     const check = array.some((arrVal) => id + '' === arrVal + '');
 
-    // Si existe el id en el array lo quita
+    // So in the same action we add and remove an activity
+    // If there is the id in the array it is removed
     if (check) {
         // eslint-disable-next-line prefer-template
         newArray = array.filter((arrVal) => arrVal + '' !== id + '');
     } else {
-        // si NO existe el id lo añade, seria lo mismo que hacer un push pero con un rest operator
+        // If there ISN'T the id in the array, it is added, it would be the same with a push but with rest operator avoid mutation
         newArray = [...array, id];
     }
 

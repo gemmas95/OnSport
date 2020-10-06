@@ -1,9 +1,9 @@
 const { filterArray } = require('./helper');
-// lo usamos para dd activity to cart
+// We use it for the action creator ADD_TO_CART (activity)
 const put = (req, res) => {
     const { user } = req;
 
-    // sacamos la propiedad que le pasamos al req.body desdel front
+    // We get the property that we pass in the req.body on front
     const { activityId } = req.body;
     const { activity } = req;
 

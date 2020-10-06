@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "type": "Acuatic",
+        "name": "Scuba-Diving",
+        "nickname": "diving",
+        "image": "https://trello-attachments.s3.amazonaws.com/5edcc7367102c32f7a0d5304/5f7c6290368eeb2bf08a1279/039b7ac3f0cad4e2187f74bc53c5f873/diver-min13.jpg",
+        "centers": ["CNS"]
+    },
+    {
+        "id": 2,
+        "type": "Terrestre",
+        "name": "Cycling",
+        "nickname": "bike",
+        "image": "https://trello-attachments.s3.amazonaws.com/5edcc7367102c32f7a0d5304/5f7c6290368eeb2bf08a1279/51c8ed6cab0eb5e81b96cc88b8bac0f3/dcf_saddle_header_1540175824.jpg",
+        "centers": ["CNS"]
+    },
+    {
+        "id": 3,
+        "type": "Acuatic",
+        "name": "Sailing",
+        "nickname": "sailing",
+        "image": "https://trello-attachments.s3.amazonaws.com/5edcc7367102c32f7a0d5304/5f7c6290368eeb2bf08a1279/edf9160587c486a5ee31e554316665fb/IMG_8330.jpg",
+        "centers": ["CNS"]
+    }
+]
