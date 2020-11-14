@@ -3,6 +3,7 @@ const debug = require('debug')('app');
 const chalk = require('chalk');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 const app = express();
 
@@ -17,7 +18,7 @@ app.get('/', (req, res) => {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost/onsport');
+mongoose.connect(process.env.MONGO);
 
 // Configuration models
 
