@@ -60,6 +60,7 @@ dispatcher.register((action) => {
                 if (activity._id === action.data._id) {
                     activity = action.data;
                 }
+                return activity;
             });
             activityStore.emitChange();
             break;
