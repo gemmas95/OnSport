@@ -9,6 +9,7 @@ function Map({ city, street }) {
 
     return (
         <iframe
+            title={`Map ${city}, ${street}`}
             width="500"
             height="350"
             frameBorder="0"

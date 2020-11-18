@@ -17,7 +17,7 @@ function DashboardComponent(props) {
             loadSports();
             return () => sportStore.removeChangeListener(onChange);
         }
-    }, sports);
+    }, [sports]);
     function onChange() {
         setSports(sportStore.getSports());
     }
@@ -33,7 +33,10 @@ function DashboardComponent(props) {
                                 key={sport._id}
                                 to={`/${sport.name}`}
                             >
-                                <img src={`${sport.image}`}></img>
+                                <img
+                                    src={`${sport.image}`}
+                                    alt={`${sport.name}`}
+                                ></img>
                                 <h1>{sport.name}</h1>
                             </NavLink>
                         );

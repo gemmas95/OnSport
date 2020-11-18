@@ -18,7 +18,10 @@ app.get('/', (req, res) => {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-mongoose.connect(process.env.MONGO);
+mongoose.connect(process.env.MONGO, {
+    useUnifiedTopology: true,
+    useNewUrlParser: true
+});
 
 // Configuration models
 
